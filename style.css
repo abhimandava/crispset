@@ -1,10 +1,11 @@
 .parent{
   display:flex;
   flex-direction: row;
-
+justify-content: center;
 }
-.parent>div{
+.childOne{
+  width:30%;
 padding:2%;
 border:1px solid #add;
-
+margin:2%;
 }
