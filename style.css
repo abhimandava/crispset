@@ -1,15 +1,22 @@
 .parent{
-  width:95%;
+  /* width:95%; */
 padding:2%;
-  display:flex;
-  flex-direction: row;
+display:flex;
+flex-direction: row;
 justify-content: center;
 }
 .childOne{
-  width:100%;
+width:30%;
 padding:2%;
 border:2px solid #add;
 margin:2%;
+}
+
+.childTwo{
+  width:70%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
 }
 .childOne img{
 width:50%;
@@ -20,7 +27,8 @@ box-shadow: 3px 3px 3px pink;
 border-radius: 20px;
 }
 /*for small screen mobiles*/
-@media only screen and (min-width:320px) and (max-width:420px){
+
+@media only screen and (min-width:320px) and (max-width:480px){
   .parent{
     width:95%;
   padding:20%;
@@ -34,6 +42,13 @@ border-radius: 20px;
   border:2px solid #add;
   margin:2%;
   }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  }
   .childOne img{
   width:50%;
   padding:5%;
@@ -41,6 +56,111 @@ border-radius: 20px;
   margin:2%;
   box-shadow: 3px 3px 3px pink;
   border-radius: 20px;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #fae543;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #8b4343;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: 123456;
+  }
+h2{
+  text-align=center;
+}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1170px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #6ae543;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #568;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: 923456;
+  }
+
+}
+@media only screen and (min-width:1025px) and (max-width:1550px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #6ae501;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #588;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: #568;
   }
 
 }

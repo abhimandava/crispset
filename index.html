@@ -1,24 +1,166 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title><h2>my_html123</h2>
-    </title>
-  </head>
-  <body>
-    <h1>this is my first project99</h1>
-<div class="parent">
-  <div>A </div>
-  <div >B
+.parent{
+  /* width:95%; */
+padding:2%;
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.childOne{
+width:30%;
+padding:2%;
+border:2px solid #add;
+margin:2%;
+}
 
-  </div>
-  <div>
-    C
-  </div>
-  <div>
-    D
-  </div>
-</div>
-  </body>
-</
-html>
+.childTwo{
+  width:70%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+}
+.childOne img{
+width:50%;
+padding:5%;
+border:10px solid #add;
+margin:2%;
+box-shadow: 3px 3px 3px pink;
+border-radius: 20px;
+}
+/*for small screen mobiles*/
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #fae543;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #8b4343;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: 123456;
+  }
+h2{
+  text-align=center;
+}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1170px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #6ae543;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #568;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: 923456;
+  }
+
+}
+@media only screen and (min-width:1025px) and (max-width:1550px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #6ae501;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #588;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: #568;
+  }
+
+}
