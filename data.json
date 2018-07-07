@@ -23,5 +23,19 @@
       "institute":"sri viswasanthi",
       "data":["2013-14","8.7"]
     }
+],
+"skills":[
+  {
+    "title":"languages",
+    "content":["c","python","java","cpp"]},
+    {"title":"database",
+    "content":["SQL","MySQL","MongoDB"]
+  },
+{"title":"webtechnologies",
+"content":["CSS","html","php","javascript"]
+},
+{"title":"frameworks",
+"content":["Django","codeigniter"]
+}
 ]
 }
