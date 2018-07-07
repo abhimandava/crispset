@@ -10,6 +10,13 @@ if(xhr.readyState === 4 && xhr.status=="200"){
 xhr.send(null);
 }
 getfile("data.json",function(text){
-  let data = JSON.parse(text);
-  console.log(data);
+let data= JSON.parse(text);
+console.log(data);
+  career(data.career);
 })
+var child2=document.querySelector(".childTwo");
+function career(careerInfo){
+  var ch=document.createElement("p");
+  ch.textContent=careerInfo.info;
+  child2.appendChild(ch);
+}

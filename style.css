@@ -130,6 +130,40 @@ background-color: #568;
   }
 
 }
+@media only screen and (min-width:1025px) and (max-width:1170px){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #6ae543;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #568;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: 923456;
+  }
+
+}
 @media only screen and (min-width:1025px) and (max-width:1550px){
   .parent{
     width:95%;
@@ -152,6 +186,41 @@ background-color: #568;
   border:2px solid #add;
   margin:2%;
 background-color: #588;
+  }
+  .childOne img{
+  width:50%;
+  padding:5%;
+  border:10px solid #add;
+  margin:2%;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: #568;
+  }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024Spx){
+  .parent{
+    width:95%;
+  padding:20%;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  .childOne{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+  background-color: #588;
+  }
+
+  .childTwo{
+    width:95%;
+  padding:2%;
+  border:2px solid #add;
+  margin:2%;
+background-color: #598;
   }
   .childOne img{
   width:50%;
