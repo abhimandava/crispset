@@ -4,7 +4,7 @@ padding:2%;
 display:flex;
 flex-direction: row;
 justify-content: center;
-background-color: 123456;
+background-color: #123456;
 }
 .childOne{
 width:30%;
@@ -19,7 +19,7 @@ background-color: #e23456;
   padding:2%;
   border:2px solid #add;
   margin:2%;
-  background-color:#d23456;
+  background-color: #a23456;
 }
 .childOne img{
 width:50%;
@@ -28,7 +28,7 @@ border:10px solid #add;
 margin:2%;
 box-shadow: 3px 3px 3px pink;
 border-radius: 20px;
-background-color: a23456;
+background-color: #a23456;
 }
 /*for small screen mobiles*/
 
